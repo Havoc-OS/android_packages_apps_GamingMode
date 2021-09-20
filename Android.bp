@@ -1,0 +1,9 @@
+android_app_import {
+	name: "GamingMode",
+	apk: "prebuilt/priv-app/GamingMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
