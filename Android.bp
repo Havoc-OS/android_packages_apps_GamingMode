@@ -6,4 +6,12 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
+
+    required: ["privapp_whitelist_com.android.game.mode.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.android.game.mode.xml",
+    src: "privapp_whitelist_com.android.game.mode.xml",
+    sub_dir: "permissions",
 }
